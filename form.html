@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Розкажіть трішки про себе</h3>
+    <form>
+        <fieldset>
+            <legend>Коротко про себе</legend>
+            Ім'я:<br>
+            <input name="firstname" type="text">
+            <br>
+            Прізвище:<br>
+            <input name="Lastname" type="text">
+            <br>
+            Cтать:<br>
+            <input type="radio" name="gander" checked> Чоловіча
+            <input type="radio" name="gander" > Жіноча
+            <input type="radio" name="gander" > Інша
+            <br>
+          Вік: <input name="age" type="text"> років
+        </fieldset>
+        <fieldset>
+            <legend>Детальніше про себе</legend>
+            <input name="data" type="text"> Дата народження
+            <br>
+            <input name="stan" type="text">Сімейний стан
+            <br>
+            <input name="status" type="text">Соціальний статус
+            <br>
+            <input name="recodation" type="text">Місце проживання
+            <br>
+            <hr>
+            <p>Що ви зазвичай робите на вихідних?</p>
+            <input name="walk" type="checkbox"> гуляю
+            <br>
+            <input name="fish" type="checkbox"> ходжу на рибилку
+            <br>
+            <input name="stady" type="checkbox"> навчаюсь
+            <br>
+            <input name="game" type="checkbox"> граю в ігри
+            <br>
+            <input name="filf" type="checkbox"> дивлюсь фільм
+            <br>
+            <p>Розповісти про форми в книзі присвяченій HTML:</p>
+            <select>
+                <option name="sait">сайт</option>
+                <option name="book">книжка</option>
+                <option name="doogle">google</option>
+            </select>
+            <p>Скільки книг ви прочитали за своє життя?</p>
+            <input type="radio" name="namber" checked> 10 <br>
+            <input type="radio" name="namber" > 10-20 <br>
+            <input type="radio" name="namber" > 20-90 <br>
+            <input type="radio" name="namber" > 90+ <br>
+            <p>Ваші коментарі:</p>
+            <textarea maxlength="100"> </textarea>     
+        </fieldset>
+        <fieldset>
+            <legend>І на завершення:</legend>
+            <p>Email:</p>
+            <input name="text" type="text"> 
+            <br>
+            <p>Номер телефону:</p>
+            <input name="tell" type="text">
+        </fieldset> 
+        <br>
+        <input type="submit" value="надіслати">   
+        <input type="reset" value="очистит">
+    </form>
+</body>
+</html>
